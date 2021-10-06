@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JJ_app_v2</string>
+    <string name="traffic">Traffic</string>
+    <string name="weather">Weather</string>
+    <string name="news">News</string>
+    <string name="personal_menu">Personal Menu</string>
+    <string name="map">MAP</string>
+    <string name="weather_and_map">Weather and Map</string>
+    <string name="app_name2">Wake Up Pal</string>
+    <string name="welcome_please_select_an_alarm_time_above">Welcome! Please select an alarm time above</string>
+    <string name="weather_and_traffic">Weather and Traffic</string>
+    <string name="to_view_local_weather_and_traffic_click_the_above_button">To view local weather and traffic, click the above button</string>
+    <string name="weather_and_local_traffic">Weather and Local Traffic</string>
+</resources>

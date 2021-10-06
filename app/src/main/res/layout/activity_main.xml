@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+
+    <!--timepicker to be center-->
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:headerBackground="@color/black" />
+
+    <!--Toggle Button-->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="@string/welcome_please_select_an_alarm_time_above"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <!--launches next activity-->
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:checked="false"
+        android:onClick="OnToggleClicked"
+        android:textColor="#455A64"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/wake_button"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="launchWakeScreen"
+        android:text="@string/weather_and_traffic"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/to_view_local_weather_and_traffic_click_the_above_button"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+</LinearLayout>
